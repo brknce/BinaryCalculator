@@ -11,17 +11,18 @@
 </head>
 
 <body>
-    <div id="res"></div>
-    <div id="btns">
-        <button id="btn0" onclick="process(this.id)">0</button>
-        <button id="btn1" onclick="process(this.id)">1</button>
-        <button id="btnClr" onclick="process(this.id)">C</button>
-        <button id="btnEql" onclick="process(this.id)">=</button>
-        <button id="btnSum" onclick="process(this.id)">+</button>
-        <button id="btnSub" onclick="process(this.id)">-</button>
-        <button id="btnMul" onclick="process(this.id)">*</button>
-        <button id="btnDiv" onclick="process(this.id)">/</button>
-    </div>
+        <div id="res"></div>
+        <div id="btns">
+            <button id="btn0" onclick="process(this.id)">0</button>
+            <button id="btn1" onclick="process(this.id)">1</button>
+            <button id="btnClr" onclick="process(this.id)" disabled>C</button>
+            <button id="btnEql" onclick="process(this.id)" disabled>=</button>
+            <button id="btnSum" onclick="process(this.id)" disabled>+</button>
+            <button id="btnSub" onclick="process(this.id)" disabled>-</button>
+            <button id="btnMul" onclick="process(this.id)" disabled>*</button>
+            <button id="btnDiv" onclick="process(this.id)" disabled>/</button>
+        </div>
+
 </body>
 
 </html>
